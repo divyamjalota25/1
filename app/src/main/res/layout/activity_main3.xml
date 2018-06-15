@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="@drawable/bck2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:gravity="center"
+        android:text="Personal Details"
+        android:textColor="#231d1d"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill your details, address for getting precise blood request near you"
+        android:gravity="center"
+        android:layout_marginTop="90dp"
+        android:textColor="#0e0e0e"/>
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="164dp"
+        android:hint="First Name" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="39dp"
+        android:hint="Last Name" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Of Birth"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="39dp"
+                />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="160dp"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Month"
+        android:inputType="number"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="210dp"/>
+    <EditText
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:hint="Year"
+        android:inputType="number"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="270dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood type"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="39dp"
+        />
+    <EditText
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="160dp"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Referal Code"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="140dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="410dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="200dp"/>
+
+
+
+</RelativeLayout>
